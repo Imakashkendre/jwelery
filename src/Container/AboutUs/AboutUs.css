@@ -1,0 +1,50 @@
+.About-Us-in-jwellery-page
+{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.border-of-image-in-about-us
+{
+    display: flex;
+    justify-content: center;
+    border: 1px solid none;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+
+}
+.image-of-women-wearing-jewellery
+{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    
+}
+.border-of-two-image-wearing-jewellery
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.We-always-find-ways-to-show-our-affection-to-our-loved-ones
+{
+    justify-content: center;
+    display: flex ;
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+    width: 101%;
+}
+.jewellery-helps-the-beauty-to-flourish-and-makes-your-partner-glow
+{
+    justify-content: center;
+    display: flex ;
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+    padding-top: 25px;
+}
