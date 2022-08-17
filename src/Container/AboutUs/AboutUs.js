@@ -23,23 +23,27 @@ const AboutUs = () => {
               <img src={profileimg2} alt="" srcset="" />
             </div>
           </div>
-          <div className="paragraph-for-about-us">
-            <p>
-              Reliance Jewels is a part of Reliance Retail, which is amongst
-              'Top 10 Trusted Retail Brands In India' We have made a mark in the
-              jewellery Retail market by offering a wide range of Gold, Diamond,
-              Silver, and Platinum Jewellery collections. Reliance Jewels owns
-              flagship showrooms and Shop-In-Shops and is successfully
-              delivering a uniform customer experience throughout the nation.
-            </p>
-            <p>
-              Reliance Jewels is a part of Reliance Retail, which is amongst
-              'Top 10 Trusted Retail Brands In India' We have made a mark in the
-              jewellery Retail market by offering a wide range of Gold, Diamond,
-              Silver, and Platinum Jewellery collections. Reliance Jewels owns
-              flagship showrooms and Shop-In-Shops and is successfully
-              delivering a uniform customer experience throughout the nation.
-            </p>
+          <div className="two-seperate-para">
+            <div className="paragraph-for-about-us">
+              <p>
+                Reliance Jewels is a part of Reliance Retail, which is amongst
+                'Top 10 Trusted Retail Brands In India' We have made a mark in
+                the jewellery Retail market by offering a wide range of Gold,
+                Diamond, Silver, and Platinum Jewellery collections. Reliance
+                Jewels owns flagship showrooms and Shop-In-Shops and is
+                successfully delivering a uniform customer experience throughout
+                the nation.
+              </p>
+              <p>
+                Reliance Jewels is a part of Reliance Retail, which is amongst
+                'Top 10 Trusted Retail Brands In India' We have made a mark in
+                the jewellery Retail market by offering a wide range of Gold,
+                Diamond, Silver, and Platinum Jewellery collections. Reliance
+                Jewels owns flagship showrooms and Shop-In-Shops and is
+                successfully delivering a uniform customer experience throughout
+                the nation.
+              </p>
+            </div>
           </div>
         </div>
       </div>
