@@ -1,6 +1,7 @@
 .flex-div-for-all-popular-products {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .div-for-all-popular-products {
   display: flex;
