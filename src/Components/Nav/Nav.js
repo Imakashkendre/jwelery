@@ -29,15 +29,7 @@ const Nav = () => {
                         <div className="nav-logo-for-jwelery-nav">
                             <p>JEUNE</p>
                         </div>
-                        {/* middle content for jwelery navbar */}
-                        <div className={`nav-items-for-jwelery-nav ${isOpen && 'open'}`}>
-                            <p href="/home">Home</p>
-                            <p href="/about">Shop</p>
-                            <p href="/service">About Us</p>
-                            <p href="/contact">Contact Us</p>
-                            <p href="/service">FAQ</p>
 
-                        </div>
                     </div>
                     <div className="contains-toggle-and-icons-for-nav">
                         <div className="contains-icons-for-nav">
@@ -55,6 +47,19 @@ const Nav = () => {
                             />
                         </div>
                     </div>
+                    {/* middle content for jwelery navbar */}
+
+                </div>
+
+            </div>
+            <div className='sub-middle-content'>
+                <div className={`nav-items-for-jwelery-nav ${isOpen && 'open'}`}>
+                    <p href="/home">Home</p>
+                    <p href="/about">Shop</p>
+                    <p href="/service">About Us</p>
+                    <p href="/contact">Contact Us</p>
+                    <p href="/service">FAQ</p>
+
                 </div>
             </div>
         </>

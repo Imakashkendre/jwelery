@@ -8,6 +8,10 @@
 .middle-content-jwelery-nav {
   display: block;
 }
+.sub-middle-content {
+  display: flex;
+  justify-content: center;
+}
 .nav-logo-for-jwelery-nav p {
   font-size: 28px;
   font-weight: 500;
@@ -16,7 +20,6 @@
   align-items: center;
   display: flex;
   text-align: center;
-  margin: 59px 0 0 0;
 }
 .nav-items-for-jwelery-nav {
   gap: 1em;
