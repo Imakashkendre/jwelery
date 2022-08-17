@@ -56,6 +56,9 @@
     width: 100%;
     padding: 1em;
   }
+  .second-div-of-sub-div-for-img ~ p {
+    padding-left: 1em;
+  }
   .imgfirst-style {
     width: 100%;
     padding: 1em;
@@ -63,5 +66,13 @@
   .heading-div-for-arrivals {
     padding: 1em;
     text-align: center;
+  }
+  .newarrivval-heading {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+  .imgfirst-style ~ p {
+    padding-left: 1em;
   }
 }
