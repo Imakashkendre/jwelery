@@ -1,0 +1,38 @@
+.container-flex-for-about-us {
+  display: flex;
+  justify-content: center;
+}
+.width-set-for-about-us {
+  width: 75em;
+}
+.first-image-about-us img {
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+}
+.second-image-about-us img {
+  border-radius: 50%;
+  height: 10em;
+  width: 10em;
+}
+.header-for-about-us p {
+  text-align: center;
+  font-size: 5em;
+}
+
+.two-flex-images-for-about-us {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+.paragraph-for-about-us {
+  text-align: center;
+  width: 100%;
+  margin-top: 5em;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .container-flex-for-about-us {
+    margin: 1em;
+  }
+}
