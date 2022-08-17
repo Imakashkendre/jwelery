@@ -1,4 +1,6 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body {
   font-family: 'Dancing Script', cursive;
 }
 
@@ -49,9 +51,9 @@ body {
   display: none;
 }
 
-* {
+/* * {
   font-family: 'Roboto', sans-serif;
-}
+} */
 
 main {
   display: flow-root;

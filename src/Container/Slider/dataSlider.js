@@ -1,4 +1,8 @@
 import { v4 as uuidv4 } from "uuid";
+import sliderimg1 from "../../Assets/Images/cornelia-ng-2zHQhfEpisc-unsplash.jpg"
+import sliderimg2 from "../../Assets/Images/tasaveeer-studio-ffPis2pqbUg-unsplash.jpg"
+import sliderimg3 from "../../Assets/Images/edgar-soto-gb0BZGae1Nk-unsplash.jpg"
+import sliderimg from "../../Assets/Images/cornelia-ng-2zHQhfEpisc-unsplash.jpg"
 
 const dataSlider = [
   {
@@ -11,19 +15,19 @@ const dataSlider = [
     id: uuidv4(),
     title: "Lorem ipsum",
     subTitle: "Lorem",
-    url: "../../Assets/Images/cornelia-ng-2zHQhfEpisc-unsplash.jpg",
+    url: sliderimg1,
   },
   {
     id: uuidv4(),
     title: "Lorem ipsum",
     subTitle: "Lorem",
-    url: "../../Assets/Images/tasaveeer-studio-ffPis2pqbUg-unsplash.jpg",
+    url: sliderimg2,
   },
   {
     id: uuidv4(),
     title: "Lorem ipsum",
     subTitle: "Lorem",
-    url: "../../Assets/Images/edgar-soto-gb0BZGae1Nk-unsplash.jpg",
+    url: sliderimg3,
   },
 
 ];
