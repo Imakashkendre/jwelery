@@ -1,70 +1,52 @@
-.icon-of-the-facebook-in-footer
-{
-    width: 20px;
+.icon-of-the-facebook-in-footer {
+  width: 20px;
   height: 20px;
- justify-content: space-between;
- margin-top: 35px;
- 
+  justify-content: space-between;
+  margin-top: 35px;
 }
 
+.four-icons-of-the-footer {
+  justify-content: center;
+  display: flex;
 
-.four-icons-of-the-footer
-{
-    justify-content: center;
+  gap: 70px;
+}
+
+.div-of-the-hr {
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.Terms-and-Conditions-Privacy-Policy {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0 0 0;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .four-icons-of-the-footer {
     display: flex;
-  
-    gap: 35px;
-   
-}
-
-
-.div-of-the-hr
-{
-    justify-content: center;
-    padding-top: 50px;
-}
-
-.Terms-and-Conditions-Privacy-Policy
-{
-    display: flex;
-    justify-content: center;
- 
-  
-}
-
-
-@media (min-width:320px) and (max-width:425px){
-
-.four-icons-of-the-footer
-{
-    display: block;
     width: 100%;
     justify-content: center;
     justify-items: center;
     text-align: center;
-    
-}
+  }
 
-
-.icon-of-the-facebook-in-footer
-{
+  .icon-of-the-facebook-in-footer {
     width: 20px;
-  height: 20px;
-  padding: 1em;
-  justify-content: center;
-  /* justify-items: center;
+    height: 20px;
+
+    justify-content: center;
+    /* justify-items: center;
    */
- 
- /* justify-content: space-between; */
- /* margin-top: 35px; */
- 
-}
-.Terms-and-Conditions-Privacy-Policy
-{
+
+    /* justify-content: space-between; */
+    /* margin-top: 35px; */
+  }
+  .Terms-and-Conditions-Privacy-Policy {
     display: block;
-    padding: 1em;
+    padding: 3em;
     justify-content: center;
     text-align: center;
-}
-
+  }
 }
