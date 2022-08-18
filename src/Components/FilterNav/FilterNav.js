@@ -5,7 +5,7 @@ const FilterNav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      {/* // main div flex for jwelery navbar */}
+      {/* // main div flex for Filter navbar */}
       <div className="flex-container-main">
         <div className="width-for-filter-Nav">
           <div className="sub-middle-content-for-filter-nav">
@@ -18,14 +18,14 @@ const FilterNav = () => {
               </div>
             </div>
             <div className={`nav-items-for-Filter-nav ${isOpen && "open"}`}>
-              <p href="/home">Home</p>
-              <p href="/about">Shop</p>
-              <p href="/service">About Us</p>
+              <p href="/home">Filter:</p>
+              <p href="/about">Avalibility</p>
+              <p href="/service">Price</p>
             </div>
             <div className={`nav-items-for-Filter-nav`}>
-              <p href="/contact">Contact Us</p>
-              <p href="/service">FAQ</p>
-              <p href="/service">FAQ-2</p>
+              <p href="/contact">Sort By:</p>
+              <p href="/service">Featured</p>
+              <p href="/service">12 Products</p>
             </div>
           </div>
         </div>
