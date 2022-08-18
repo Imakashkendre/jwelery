@@ -7,6 +7,7 @@ function Footer() {
       <div className="div-of-the-hr">
         <hr />
       </div>
+      {/*   footer div containing with icons*/}
       <div className="four-icons-of-the-footer">
         <img
           className="icon-of-the-facebook-in-footer"
@@ -28,6 +29,7 @@ function Footer() {
           src="https://cdn-icons-png.flaticon.com/128/37/37929.png"
         />
       </div>
+      {/* this div contains text */}
       <div className="Terms-and-Conditions-Privacy-Policy">
         <p>Terms & Conditions Privacy Policy </p>
       </div>
