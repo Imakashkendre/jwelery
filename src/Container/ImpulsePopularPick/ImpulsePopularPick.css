@@ -1,6 +1,7 @@
 .flex-div-for-all-popular-products {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .div-for-all-popular-products {
   display: flex;
@@ -8,6 +9,11 @@
   /* width: 80em; */
   flex-wrap: wrap;
   justify-content: center;
+}
+.shop-page-heading {
+  padding-left: 4.5em;
+  font-size: 30px;
+  font-family: 'Dancing Script', cursive;
 }
 @media (min-width: 320px) and (max-width: 425px) {
   .flex-div-for-all-popular-products {

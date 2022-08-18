@@ -38,7 +38,7 @@ export default function Slider() {
                         className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
                     >
                         <img
-                            src={dataSlider.url}
+                            src={obj.url}
                         />
                     </div>
                 )

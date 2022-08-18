@@ -50,6 +50,7 @@ const ImpulsePopularPick = () => {
     ]
     return (
         <>
+            <div className='shop-page-heading' ><h2>Neckless</h2></div>
             <div className='flex-div-for-all-popular-products'>
                 <div className='div-for-all-popular-products'>
                     {allimpulseproduct.map((val, index) => (

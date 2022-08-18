@@ -1,18 +1,27 @@
-.jwelery-nav {
+.Filter-nav {
   height: 60px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  display: none;
   /* background: #e3e3e3; */
 }
-.middle-content-jwelery-nav {
-  display: block;
+
+.width-for-filter-Nav {
+  width: 80em;
 }
-.sub-middle-content {
+.flex-container-main {
   display: flex;
   justify-content: center;
 }
-.nav-logo-for-jwelery-nav p {
+.middle-content-Filter-nav {
+  display: block;
+}
+.sub-middle-content-for-filter-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-logo-for-Filter-nav p {
   font-size: 28px;
   font-weight: 500;
   /* letter-spacing: 5px; */
@@ -21,11 +30,11 @@
   display: flex;
   text-align: center;
 }
-.nav-items-for-jwelery-nav {
+.nav-items-for-Filter-nav {
   gap: 1em;
   display: flex;
 }
-.nav-items-for-jwelery-nav p {
+.nav-items-for-Filter-nav p {
   white-space: nowrap;
   max-width: 6em;
   overflow: hidden;
@@ -35,13 +44,13 @@
 .nav-toggle {
   display: none;
 }
-.nav-logo-for-jwelery-nav {
+.nav-logo-for-Filter-nav {
   font-weight: 700;
   font-size: 21px;
   margin: 15px;
   color: #000000;
 }
-.header-text-and-nav-items-for-jwelery-nav {
+.header-text-and-nav-items-for-Filter-nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +59,7 @@
 .contains-toggle-and-icons-for-nav {
   /* justify-content: space-between; */
 }
-.nav-items-for-jwelery-nav > p {
+.nav-items-for-Filter-nav > p {
   color: #000000;
 
   font-size: 16px;
@@ -60,11 +69,11 @@
   opacity: 0.9;
 }
 
-.nav-items-for-jwelery-nav > p:hover {
+.nav-items-for-Filter-nav > p:hover {
   opacity: 1;
 }
 
-.nav-items-for-jwelery-nav > p::before {
+.nav-items-for-Filter-nav > p::before {
   content: "";
   position: absolute;
   left: 0;
@@ -75,11 +84,11 @@
   transition: all 0.45s;
 }
 
-.nav-items-for-jwelery-nav > p:hover::before {
+.nav-items-for-Filter-nav > p:hover::before {
   width: 100%;
 }
 
-.nav-toggle-for-jwelery-nav {
+.nav-toggle-for-Filter-nav {
   display: none;
 }
 .contains-icons-for-nav {
@@ -89,16 +98,16 @@
   gap: 1em;
   cursor: pointer;
 }
-.nav-items-for-jwelery-nav {
+.nav-items-for-Filter-nav {
   display: flex;
 }
 @media (max-width: 700px) {
   /* .contains-icons-for-nav {
-    } */
-  .nav-logo-for-jwelery-nav p {
+      } */
+  .nav-logo-for-Filter-nav p {
     margin: 0;
   }
-  .nav-items-for-jwelery-nav {
+  .nav-items-for-Filter-nav {
     position: absolute;
     top: 60px;
     display: flex;
@@ -111,15 +120,15 @@
     transition: all 0.45s;
   }
 
-  .nav-items-for-jwelery-nav > p::before {
+  .nav-items-for-Filter-nav > p::before {
     background: transparent;
   }
 
-  .nav-items-for-jwelery-nav.open {
+  .nav-items-for-Filter-nav.open {
     transform: translateX(0);
   }
 
-  .nav-toggle-for-jwelery-nav {
+  .nav-toggle-for-Filter-nav {
     display: flex;
     width: 50px;
     height: 50px;
